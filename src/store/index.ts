@@ -1,9 +1,12 @@
 import { createStore } from "vuex";
+import taskState from "@/store/taskState";
 
-export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+export class RootState {}
+
+const store = createStore({
+  modules: {
+    taskState,
+  },
 });
+
+export default store;
