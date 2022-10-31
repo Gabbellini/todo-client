@@ -1,4 +1,5 @@
 # todo-client
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+Todo list client
+>>>>>>> 36d5f93960f0e49bf904dc7162466bab388deaf4
